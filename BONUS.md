@@ -1,0 +1,3 @@
+- In both the 'Create Hosting' and 'Edit Hosting' interfaces, after users upload thumbnail images, a display window is set up for them. Users can select an image as the default thumbnail by clicking a button located at the bottom left corner. They also have the option to delete images by clicking a button situated at the top right corner.
+
+- When users attempt to access pages such as 'My Hosting', 'Edit Hosting' or click booking button in listing page without being logged in, they are redirected to the login page. After the completion of the login process, they are automatically directed to the previously attempted page.

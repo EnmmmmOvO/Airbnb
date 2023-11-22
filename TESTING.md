@@ -1,0 +1,3 @@
+- I set up a test for each class, which more intuitively demonstrates all the functionalities. For the registration part, I registered two users because a housing host cannot book their own property. After creating a hosting, I added a wait in both the hosting and landing pages to ensure images and elements load correctly. I performed an extra publish operation because there was an unpublish action previously. Without this extra publish, users wouldn't be able to see this house on the landing page.
+
+- For image uploads, I placed the images in the fixtures directory. I incorporated 'cypress-file-upload' and used 'attachFile' to let Cypress manage the upload file, replacing the method of clicking to find and upload.
